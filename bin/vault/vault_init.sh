@@ -1,2 +1,3 @@
 #!/usr/bin/env bash 
-vault init 
+source vault_env.sh
+vault  operator init 
