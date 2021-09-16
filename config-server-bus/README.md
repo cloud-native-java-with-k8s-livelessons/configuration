@@ -12,11 +12,7 @@ You can also have the config server respond to changes in the source repositorie
 spring.cloud.config.server.git.uri = file:///${HOME}/Desktop/configuration-config
 ```
 
-If you're using a source code provider like Github or Gitlab, then you need to configure that service to invoke this config-server with a webhook.  The webhook will hit the `/monitor` endpoint with a payload, like this:
-
-```json
- { "path" :  "/Users/jlong/Desktop/configuration"}
-```
+If you're using a source code provider like Github or Gitlab, then you need to configure that service to invoke this config-server with a webhook.  The webhook will hit the `/monitor` endpoint with a payload. For a working but fake example, check out `fake_github_webhook.sh` which will trigger the `/monitor` endpoint on the `config-server`, the results of which you can observe in the `config-client-bus` project.
 
 ## Resources 
 * https://cloud.spring.io/spring-cloud-config/multi/multi__push_notifications_and_spring_cloud_bus.html 
