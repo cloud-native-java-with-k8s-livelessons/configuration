@@ -2,17 +2,18 @@
 
 This example introduces a few key concepts:
 
-
+# one
  * 12 factor configuration 
  * JNDI, env vars, `application.yaml`, `application.properties`, `@Value`, 
  * Property Placeholder resolution, default values, etc. 
  * `@ConfigurationProperties`
 
+# two
  * the `Environment` abstraction 
  * `PropertySource` thats registered in `spring.factories` as an `EnvironmentPostProcessor` 
 
 
-
+# three
  * the refresh Actuator endpoint: `curl localhost:8080/actuator/refresh -d {} -H "Content-Type: application/json" `
  * `@RefreshScope`
  * Spring Cloud Bus 
