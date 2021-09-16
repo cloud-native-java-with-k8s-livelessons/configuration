@@ -1,7 +1,8 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
+  namespace: cnj
   name: cnj-configmap
 data:
   application.properties: |-
-    cnj.message=Hello, ConfigMap from Spring Cloud Kubernetes Config
+    cnj.message=Hello, ConfigMap from Spring Cloud Kubernetes Config!!!!
