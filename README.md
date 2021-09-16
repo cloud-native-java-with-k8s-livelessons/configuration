@@ -3,7 +3,7 @@
 This example introduces a few key concepts:
 
  * the `Environment` abstraction 
- * `PropertySource`
+ * `PropertySource` thats registered in spring.factories as an `EnvironmentPostProcessor` 
  * `@ConfigurationProperties`
  * the refresh Actuator endpoint: `curl localhost:8080/actuator/refresh -d {} -H "Content-Type: application/json" `
  * `@RefreshScope`
