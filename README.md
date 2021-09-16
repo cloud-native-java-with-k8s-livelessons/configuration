@@ -9,3 +9,4 @@ This segment looks at the various ways you can configure your applications local
 * the Refresh Scope
 * Reading data from config trees and environment variables in a Kubernetes environment 
 * Reading and re-reading configuration data directly from the Kubernetes `ConfigMap` structure itself using the API and Spring Cloud Kubernetes' ConfigMap support
+* Spring Cloud Vault for secure configuration
