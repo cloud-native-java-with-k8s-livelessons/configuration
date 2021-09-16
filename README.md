@@ -1,12 +1,16 @@
-# configuration
+# Basic Configuration 
 
-This segment looks at the various ways you can configure your applications locally and beyond, in a cloud environment
+This example introduces a few key concepts:
+
+ * the `Environment` abstraction 
+ * `PropertySource`
+ * `@ConfigurationProperties`
+ * the refresh Actuator endpoint: `curl localhost:8080/actuator/refresh -d {} -H "Content-Type: application/json" `
+ * `@RefreshScope`
+ * Spring Cloud Bus 
+ * Spring Cloud Config Monitor (which detects changes in file systems or responds to webhooks from providers like github or gitlab)
+    * https://cloud.spring.io/spring-cloud-config/multi/multi__push_notifications_and_spring_cloud_bus.html
+ * Spring Cloud Vault  
 
 
-* The Spring Environment abstraction 
-* `@ConfigurationProperties`
-* The Spring Cloud Config Server
-* the Refresh Scope
-* Reading data from config trees and environment variables in a Kubernetes environment 
-* Reading and re-reading configuration data directly from the Kubernetes `ConfigMap` structure itself using the API and Spring Cloud Kubernetes' ConfigMap support
-* Spring Cloud Vault for secure configuration
+https://springbootdev.com/2018/07/17/spring-cloud-config-refreshing-the-config-changes-with-spring-cloud-bus-part-2/
