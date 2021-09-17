@@ -22,11 +22,15 @@ This example introduces a few key concepts:
  * Environemnt specific config 
  * Kubernetes 
 
-# five
+# five 
+* Spring Cloud Config Server 
+
+
+# six 
  * Spring Cloud Bus 
  * Spring Cloud Config Monitor (which detects changes in file systems or responds to webhooks from providers like github or gitlab)
     * https://cloud.spring.io/spring-cloud-config/multi/multi__push_notifications_and_spring_cloud_bus.html
- * Spring Cloud Vault  
+
 
 
 https://springbootdev.com/2018/07/17/spring-cloud-config-refreshing-the-config-changes-with-spring-cloud-bus-part-2/
