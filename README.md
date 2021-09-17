@@ -20,7 +20,10 @@ This example introduces a few key concepts:
 
 # four 
  * Environemnt specific config 
+ * profiles 
+ * activate on cloud platform 
  * Kubernetes 
+ * SPring Cloud Kubernetes ConfigMaps 
 
 # five 
 * Spring Cloud Config Server 
